@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(215, 243, 245);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+    position: absolute;
+    background-color: rgb(150, 216, 234);
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+}
+
+.div1{
+    color:rgb(72, 118, 225);
+    padding-top: 150px;
+    padding-bottom: 200px;
+
+}
+.div1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    z-index: 1;
+}
+h1 {
+    margin: 0;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 3em;
+}
+
+.clouds {
+    position: absolute;
+    width: 200px;
+    left: 100px;
+}
+
+.clouds2 {
+   
+    position: absolute;
+    width: 200px;
+    top:100px;
+    left: 70%;
+    bottom: 40%;
+    
+}
+
+.hills {
+    position: absolute;
+    left:0;
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+    
+    
+    
+
+
+}
+.middle-container{
+    position: absolute;
+    top:100%;
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+    
+}  
+.profile-pic{
+
+width: 200px;
+}    
+.skill-pic ,.game-controller {
+    width:20%;
+    float: left;
+    margin-right: 50px;
+}
+.game-controller{
+    float:right;
+    margin-left: 50px;
+}
+hr{
+    color: rgb(118, 52, 223);
+    border-width: 10px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    margin: 50px auto 50px auto;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+
+    text-align: left;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    padding: 30px 0 30 px;
+}
+.bottom-container a{
+    
+    text-decoration: none;
+    padding: 30px 0 30 px;
+    color: aqua;
+    margin-right: 30px;
+}
+
+.bottom-container{
+    padding-top: 30px;
+    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    position: absolute;
+    top:300%;
+}
